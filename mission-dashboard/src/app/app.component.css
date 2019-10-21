@@ -1,15 +1,18 @@
 body {
     color: white;
     background: black;
+
 }
 
-p {
+h3 {
     text-align: center;
-    text-size-adjust: 18px;
     color: #5a587a;
 }
 
 .box {
+    margin: auto;
+    width: 50%;
+    text-align: left;
     display: flex;
-    padding: 10px;
+
  }

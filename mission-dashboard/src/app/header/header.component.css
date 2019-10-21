@@ -3,8 +3,8 @@ body {
     background: black;
 }
 
-p {
+p, h2, h3 {
     text-align: center;
-    text-size-adjust: 46px;
+    text-size-adjust: 50px;
     color: #5a587a;
 }
