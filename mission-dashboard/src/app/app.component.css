@@ -8,3 +8,8 @@ p {
     text-size-adjust: 18px;
     color: #5a587a;
 }
+
+.box {
+    display: flex;
+    padding: 10px;
+ }

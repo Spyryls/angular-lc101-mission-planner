@@ -4,12 +4,16 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { CrewComponent } from './crew/crew.component';
+import { EquipmentComponent } from './equipment/equipment.component';
+import { ReconstructionComponent } from './reconstruction/reconstruction.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    CrewComponent
+    CrewComponent,
+    EquipmentComponent,
+    ReconstructionComponent
   ],
   imports: [
     BrowserModule

@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class HeaderComponent implements OnInit {
 
   missionName : string = 'Thessia-Rebuild';
-  shipName: string = 'Normandy SR-3'
+  shipName: string = 'Normandy SR-2'
   constructor() { }
 
   ngOnInit() {
