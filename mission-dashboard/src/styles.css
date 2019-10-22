@@ -1,1 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    background: black;
+    color: #f2e2d5;
+}
+
+#backgroundFixed {
+    position: fixed;
+    z-index: -1;
+    top: -250px;
+}
+

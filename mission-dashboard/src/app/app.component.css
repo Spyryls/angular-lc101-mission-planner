@@ -1,7 +1,14 @@
 body {
-    color: white;
-    background: black;
-
+      display: block;
+      border: 1px solid gray;
+      border-radius: 16px;
+      box-shadow: 0 0 100px pink;
+      text-align: center;
+      padding: 10px 0 40px 0;
+      text-decoration: none;
+      color: white;
+      overflow: auto;
+      opacity: .8;
 }
 
 h3 {
@@ -9,10 +16,17 @@ h3 {
     color: #5a587a;
 }
 
+h2 {
+    text-align: center;
+}
+
 .box {
     margin: auto;
     width: 50%;
     text-align: left;
     display: flex;
-
- }
+    box-shadow: 0 0 15px #c95100;
+    border-radius: 15px;
+    justify-content: space-evenly;
+    align-content: space-between;
+}
