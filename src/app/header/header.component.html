@@ -20,3 +20,10 @@
         <button (click)="updateRocket(rocket.value)">save</button>
     </ng-template>
 </h3>
+
+<h3>Crew Roster:
+    <input #name type="text" />
+    <label> First Mission<input #firstMission type="checkbox" /></label>
+    <button (click)="add(name.value, firstMission.checked)">Add</button>
+
+</h3>
