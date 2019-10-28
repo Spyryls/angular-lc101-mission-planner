@@ -6,6 +6,9 @@
 button {
     margin: 2px;
     cursor: pointer;
+    border-radius: 16px;
+    background-color: #353C44;
+    color: rgba(222, 184, 135, 0.685);
 }
 
 h3 {
