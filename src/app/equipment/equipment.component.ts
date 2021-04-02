@@ -31,11 +31,6 @@ export class EquipmentComponent implements OnInit {
   addItem(equipmentLoaded: object): boolean {
     this.cargoHold.push(equipmentLoaded);
     this.cargoMass += equipmentLoaded["mass"];
-    if (this.cargoMass <= 1800) {
-      return true;
-    };
-    if (this.cargoHold.length === this.maxItems) {
-      
-    }
+    return this.maximumAllowedMass - this.cargoMass <= 200;
   }
 }
